@@ -12,6 +12,22 @@ h1
     flex-direction: column;
 }
 
+label {
+  cursor: pointer;
+  border: 0.5px solid #74A9D8;
+  padding: 7px;
+  padding-left: 46px;
+  padding-right: 46px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Neucha', cursive;
+  background: #74A9D8;
+}
+
+#imageLoader {
+  display: none;
+}
+
 .header
 {
   display: flex;
@@ -57,6 +73,7 @@ a.button {
   }
 
 .btnBlue.btnPush {
+  margin-top: 0px;
     box-shadow: 0px 5px 0px 0px #0a3b52;
   }
   

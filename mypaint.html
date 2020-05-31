@@ -14,22 +14,23 @@
 <body>
     <div class="container">
         <div class="header">
-                <h1>maë paint</h1><img id="logo" src="/home/mmaeva/delivery/my_paint/icones/paintt.jpg"/>
+                <h1>maë paint</h1><img id="logo" src="icones/paintt.jpg"/>
         </div>
         
         <canvas id="myCanvas" width="1010" height="400"></canvas>
     
         <div class="navbar">
-                <input type="file" id="imageLoader" name="imageLoader"/>
-                <a class="button btnPush btnBlue" id="crayon" onclick="switchOption('crayon')"><img src="/home/mmaeva/delivery/my_paint/icones/icons8-crayon-50.png" alt="crayon"/></a>
-                <a class="button btnPush btnBlue" onclick="switchOption('gomme')"><img id="gomme" src="/home/mmaeva/delivery/my_paint/icones/gomme.png" alt="gomme"/></a>
-                <a class="button btnPush btnBlue" onclick="switchOption('line')"><img id="line" src="/home/mmaeva/delivery/my_paint/icones/icons8-ligne-64.png" alt="ligne"/></a>
-                <a class="button btnPush btnBlue" id="rect" onclick="switchOption('rect')"><img src="/home/mmaeva/delivery/my_paint/icones/icons8-rectangle-49.png" alt="rectangle"/></a> 
-                <a class="button btnPush btnBlue" id="rectFill" onclick="switchOption('rectFill')"><img src="/home/mmaeva/delivery/my_paint/icones/icons8-rectangle-48.png" alt="rectangle rempli"/></a>
-                <a class="button btnPush btnBlue" id="circle" onclick="switchOption('circle')"><img src="/home/mmaeva/delivery/my_paint/icones/icons8-cercle-plein-49.png" alt="cercle"/></a>
-                <a class="button btnPush btnBlue" id="circleFill" onclick="switchOption('circleFill')"><img src="/home/mmaeva/delivery/my_paint/icones/icons8-cercle-plein-48.png" alt="cercle"/></a>
-                <a class="button btnPush btnBlue" id="save" download="image.png" onclick="saveImg()"><img src="/home/mmaeva/delivery/my_paint/icones/icons8-sauvegarder-50.png" alt="save"/></a>
-                <a class="button btnPush btnBlue" onclick="switchOption('clear')"><img id="clear" src="/home/mmaeva/delivery/my_paint/icones/icons8-rafraîchir-64.png" alt="clear"/></a>
+                
+                <a class="button btnPush btnBlue" id="crayon" onclick="switchOption('crayon')"><img src="icones/icons8-crayon-50.png" alt="crayon"/></a>
+                <a class="button btnPush btnBlue" onclick="switchOption('gomme')"><img id="gomme" src="icones/gomme.png" alt="gomme"/></a>
+                <a class="button btnPush btnBlue" onclick="switchOption('line')"><img id="line" src="icones/icons8-ligne-64.png" alt="ligne"/></a>
+                <a class="button btnPush btnBlue" id="rect" onclick="switchOption('rect')"><img src="icones/icons8-rectangle-49.png" alt="rectangle"/></a> 
+                <a class="button btnPush btnBlue" id="rectFill" onclick="switchOption('rectFill')"><img src="icones/icons8-rectangle-48.png" alt="rectangle rempli"/></a>
+                <a class="button btnPush btnBlue" id="circle" onclick="switchOption('circle')"><img src="icones/icons8-cercle-plein-49.png" alt="cercle"/></a>
+                <a class="button btnPush btnBlue" id="circleFill" onclick="switchOption('circleFill')"><img src="icones/icons8-cercle-plein-48.png" alt="cercle"/></a>
+                <a class="button btnPush btnBlue" id="save" download="image.png" onclick="saveImg()"><img src="icones/icons8-sauvegarder-50.png" alt="save"/></a>
+                <a class="button btnPush btnBlue" onclick="switchOption('clear')"><img id="clear" src="icones/icons8-rafraîchir-64.png" alt="clear"/></a>
+                <label><input type="file" id="imageLoader" name="imageLoader"/>Télécharger un fichier</label>
                 <input type="color" id="color-picker">
                 <input type="range" id="size" value="1">
         </div>
